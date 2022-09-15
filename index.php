@@ -14,6 +14,12 @@
  */
 ?>
 
+<?php
+
+get_header();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,6 +56,10 @@
     ?>
     </main>
     
-</body>
+<?php 
+
+get_footer();
+
+?>
 </html>
 
