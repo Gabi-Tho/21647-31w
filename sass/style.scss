@@ -12,14 +12,18 @@ License URI: LICENSE
 Text Domain: underscore
 */
 
-body{
+// import variables //
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@import "variables/couleurs";
+@import "variables/police";
+@import "variables/structures";
 
-}
+// import ormalize & box-sizing //
 
-h1{
-    background-color: rgb(174, 0, 255);
-    color: white;
-    font-size: 2rem;
-}
+@import "generic/normalize";
+@import "generic/box-sizing";
+
+// les elements de base //
+
+@import "base/body";
+@import "base/heading";
