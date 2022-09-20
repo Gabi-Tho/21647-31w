@@ -1,5 +1,16 @@
 body{
 
-    background-color: yellow;
+    background-color: $couleur__background-body;
 
+}
+
+
+main{
+
+    font-family: $police__main;
+
+}
+
+h1{
+    color: $couleur__h1;
 }
