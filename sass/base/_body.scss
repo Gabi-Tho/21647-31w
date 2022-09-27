@@ -1,16 +1,19 @@
 body{
-
-    background-color: $couleur__background-body;
-
+    background-color: $couleur__background--body;
+    font-size: .5rem;
 }
 
 
 main{
-
     font-family: $police__main;
-
 }
 
 h1{
-    color: $couleur__h1;
+    color: $police__couleur-h1;
 }
+
+.trace{
+    background-color: rgba(2, 128, 2, 0.307);
+    color: white;
+}
+

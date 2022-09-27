@@ -334,6 +334,7 @@ html {
 
 body {
   background-color: rgb(232, 182, 248);
+  font-size: 0.5rem;
 }
 
 main {
@@ -344,10 +345,30 @@ h1 {
   color: rgb(99, 79, 105);
 }
 
+.trace {
+  background-color: rgba(2, 128, 2, 0.307);
+  color: white;
+}
+
 h1 {
   font-family: "Arial", Helvetica, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+pre {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(141, 141, 250);
+}
+
+code {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(141, 141, 250);
+}
+
+span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(141, 141, 250);
 }/*# sourceMappingURL=style.css.map */

@@ -71,4 +71,16 @@ function underscore_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'underscore_scripts' );
 
+//----------------------------initialization de fonction de menu 
+
+if ( ! function_exists( 'gabi_31W_register_nav_menu' ) ) {
+
+	function gabi_31W_register_nav_menu(){
+		register_nav_menus( array(
+	    	'menu_primaire' => __( 'Menu Primaire', 'text_domain' ),
+		) );
+	}
+	add_action( 'after_setup_theme', 'gabi_31W_register_nav_menu', 0 );
+}
+
 

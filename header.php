@@ -36,5 +36,8 @@
 				<p class="site-description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+		<?php wp_nav_menu(array(
+			"menu" => "primaire",
+			"container" => "nav" ));?>
 
 	</header><!-- #masthead -->
