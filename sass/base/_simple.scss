@@ -1,17 +1,19 @@
 
-
 pre{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: $couleur__background--code;
+    background-color: $couleur__background--pre;
+    color: $police__couleur--base;
 
 }
 code{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: $couleur__background--code;
+    color: $police__couleur--base;
 
 }
 span{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: $couleur__background--code;
+    color: $police__couleur--base;
 
 }

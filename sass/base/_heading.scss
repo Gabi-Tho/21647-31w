@@ -1,8 +1,15 @@
 h1{
     font-family: $police__titre-principal;
+    color: green;
 
 }
 h2,h3,h4,h5,h6{
     font-family: $police__titre-secondaire;
+    color: rgb(6, 6, 6);
+}
+
+a{
+
+    color: rgb(6, 6, 6);
 }
 
