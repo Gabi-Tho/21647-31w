@@ -345,6 +345,11 @@ main {
 h1 {
   color: rgb(99, 79, 105);
 }
+h1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
 .trace {
   background-color: rgba(2, 128, 2, 0.307);
