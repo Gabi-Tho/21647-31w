@@ -28,4 +28,19 @@ $couleur__link: #ffff;
 $couleur__link--visited: indigo;
 $couleur__link--hover: orange;
 
+//--------------- couleur des buttons
 
+$color__border--button: rgb(19, 19, 109);
+$color__background--button:  rgb(66, 66, 110);
+$color__border-button--hover: rgb(19, 19, 109);
+$color__border-button--focus:  rgb(103, 103, 116);
+
+//------------- couleurs fields (inputs)
+
+$color__text--input: rgb(242, 242, 242);
+$color__border--input: rgb(66, 66, 110);
+$color__text-input--focus: rgb(19, 19, 109);
+
+//------------- couleurs hr
+
+$color__background--hr: grey;
