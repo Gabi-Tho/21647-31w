@@ -15,8 +15,8 @@ Text Domain: underscore
 // import variables //
 
 @import "variables/couleurs";
-@import "variables/police";
 @import "variables/structures";
+@import "variables/police";
 
 // import ormalize & box-sizing //
 
@@ -28,3 +28,13 @@ Text Domain: underscore
 @import "base/body";
 @import "base/heading";
 @import "base/simple";
+@import "base/links";
+@import "base/buttons";
+@import "base/fields";
+@import "base/hr";
+@import "base/lists";
+@import "base/media";
+
+//les composants
+
+@import "composants/nav_principal";

@@ -1,0 +1,30 @@
+.menu-primaire-container{ //nav
+    
+    background-color: grey;
+
+    .menu{ //ul
+
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: grey;
+
+    }
+    .menu-item{ //li 
+
+        padding: 10px;
+        background-color: grey;
+
+
+    }
+    
+    a{
+        text-decoration: none;
+    }
+};
+
+.menu-primaire-container{}
+.menu-primaire-container .menu{}
+.menu-primaire-container .menu-item{}
+.menu-primaire-container a{}
