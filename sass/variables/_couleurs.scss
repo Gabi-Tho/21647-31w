@@ -15,11 +15,7 @@ $couleur__h1: rgb(95, 180, 122);
 $couleur__h2h3: rgb(95, 180, 122);
 $couleur__h4h5: rgb(95, 180, 122);
 
-//--------------- couleurs des balises simple
 
-$couleur__background--code: rgb(141, 141, 250);
-$couleur__background--pre:   rgb(64, 64, 253);
-$couleur__background--span:  rgb(33, 33, 255);
 
 
 //---------------- couleur des liens
@@ -41,6 +37,16 @@ $color__text--input: rgb(242, 242, 242);
 $color__border--input: rgb(66, 66, 110);
 $color__text-input--focus: rgb(19, 19, 109);
 
-//------------- couleurs hr
+//------------- couleurs hr (ligne horizontale)
 
 $color__background--hr: grey;
+
+
+//--------------- couleurs simple
+
+$couleur__background--code: rgb(141, 141, 250);
+$couleur__background--pre:   rgb(64, 64, 253);
+$couleur__background--span:  rgb(33, 33, 255);
+
+$color__border--abbr: rgb(33, 33, 255);
+$color__background--ins:rgb(255, 125, 33);
