@@ -1,4 +1,4 @@
-.menu-primaire-container{ //nav
+.menu__primaire{ //nav
 
     background-color: grey;
 
@@ -21,9 +21,9 @@
     a{
         text-decoration: none;
     }
-};
+};  //fin .menu__primaire
 
-.menu-primaire-container{}
-.menu-primaire-container .menu{}
-.menu-primaire-container .menu-item{}
-.menu-primaire-container a{}
+// .menu-primaire-container{}
+// .menu-primaire-container .menu{}
+// .menu-primaire-container .menu-item{}
+// .menu-primaire-container a{}

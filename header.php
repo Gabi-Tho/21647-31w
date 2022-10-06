@@ -38,6 +38,7 @@
 		</div><!-- .site-branding -->
 		<?php wp_nav_menu(array(
 			"menu" => "primaire",
-			"container" => "nav" ));?>
+			"container" => "nav", 
+			"container_class" => "menu__primaire"));?>
 
 	</header><!-- #masthead -->

@@ -566,20 +566,20 @@ figure {
   margin: 1em 0;
 }
 
-.menu-primaire-container {
+.menu__primaire {
   background-color: grey;
 }
-.menu-primaire-container .menu {
+.menu__primaire .menu {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   padding: 10px;
   background-color: grey;
 }
-.menu-primaire-container .menu-item {
+.menu__primaire .menu-item {
   padding: 10px;
   background-color: grey;
 }
-.menu-primaire-container a {
+.menu__primaire a {
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
