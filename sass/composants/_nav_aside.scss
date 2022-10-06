@@ -1,6 +1,8 @@
 .menu__aside{
 
     display: flex;
+    padding: 10px;
+
 
     .menu{
 
@@ -12,9 +14,17 @@
 
     .menu-item{
 
+        padding: 10px;
+
         a{
+            color: $couleur__link__aside;
+            text-decoration: none;
+
 
         }
+    }
+    .menu-item:hover{
+        background: white;
     }
 }
 

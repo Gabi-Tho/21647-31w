@@ -20,11 +20,11 @@ $couleur__h4h5: rgb(95, 180, 122);
 
 //---------------- couleur des liens
 
-$couleur__link: #ffff;
+$couleur__link: rgb(0, 0, 0);
 $couleur__link--visited:  rgb(74, 142, 95);
 $couleur__link--hover: rgb(172, 172, 172);
 
-$couleur__link__aside: #ffff;
+$couleur__link__aside: black;
 $couleur__link__aside--visited: rgb(0, 0, 0);
 $couleur__link__aside--hover: rgb(74, 142, 95);
 
@@ -54,3 +54,5 @@ $couleur__background--span:  rgb(33, 33, 255);
 
 $color__border--abbr: rgb(33, 33, 255);
 $color__background--ins:rgb(255, 125, 33);
+
+

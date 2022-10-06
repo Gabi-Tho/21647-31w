@@ -1,6 +1,6 @@
 .menu__primaire{ //nav
 
-    background-color: grey;
+    background-color: rgb(74, 142, 95);
 
     .menu{ //ul
 
@@ -8,18 +8,26 @@
         display: flex;
         justify-content: space-around;
         padding: 10px;
-        background-color: grey;
+        background-color: rgb(74, 142, 95);
+        color: white;
 
     }
     .menu-item{ //li 
 
         padding: 10px;
-        background-color: grey;
+        background-color: rgb(74, 142, 95);
+        color: white;
 
     }
     
     a{
         text-decoration: none;
+        color:white;
+        text-transform: uppercase;
+    }
+    a:hover{
+        text-decoration: underline;
+
     }
 };  //fin .menu__primaire
 
