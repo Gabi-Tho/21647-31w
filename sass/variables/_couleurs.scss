@@ -2,13 +2,13 @@
 
 //-----------------couleurs du background body
 
-$couleur__background--body : rgb(232, 182, 248);
+$couleur__background--body : rgb(191, 236, 253);
 
 //---------------- couleurs des background titres
 
-$couleur__background--h1: rgb(193, 46, 193);
-$couleur__background--h2h3h4: rgb(141, 141, 250);
-$couleur__background--h5h6: rgb(141, 141, 250);
+$couleur__background--h1:rgb(191, 236, 253);
+$couleur__background--h2h3h4: rgb(191, 236, 253);
+$couleur__background--h5h6: rgb(191, 236, 253);
 
 //---------------- couleurs des titres
 $couleur__h1: rgb(95, 180, 122);
@@ -21,8 +21,12 @@ $couleur__h4h5: rgb(95, 180, 122);
 //---------------- couleur des liens
 
 $couleur__link: #ffff;
-$couleur__link--visited: indigo;
-$couleur__link--hover: orange;
+$couleur__link--visited:  rgb(74, 142, 95);
+$couleur__link--hover: rgb(172, 172, 172);
+
+$couleur__link__aside: #ffff;
+$couleur__link__aside--visited: rgb(0, 0, 0);
+$couleur__link__aside--hover: rgb(74, 142, 95);
 
 //--------------- couleur des buttons
 
