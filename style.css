@@ -620,12 +620,6 @@ figure {
 
 /* Layout
 --------------------------------------------- */
-.site {
-  display: grid;
-  grid-template-columns: 25% auto;
-  grid-template-areas: "header header" "sidebar main" "footer footer";
-}
-
 .site__header {
   grid-area: header;
 }
@@ -647,4 +641,16 @@ figure {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas: "header" "main" "footer";
+}
+
+.site {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-areas: "main" "sidebar" "header" "footer";
+}
+@media screen and (min-width: 700px) {
+  .site {
+    grid-template-columns: 25% auto;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+  }
 }/*# sourceMappingURL=style.css.map */

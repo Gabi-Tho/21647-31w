@@ -1,11 +1,4 @@
-.site {
-	display: grid;
-	grid-template-columns: ($size__site-sidebar) auto;
-	grid-template-areas:
-		"header header"
-		"sidebar main"
-		"footer footer";
-}
+
 
 .site__header {
 	grid-area: header;
@@ -25,3 +18,25 @@
 }
 
 @import "no-sidebar";
+
+.site {
+	display: grid;
+	grid-template-columns: ($size__site-sidebar) auto;
+	grid-template-areas:
+	"main"
+	"sidebar"
+	"header"
+	"footer";	
+		
+		@media screen and (min-width: 700px){
+			
+				// display: grid;
+				grid-template-columns:($size__site-sidebar) auto;
+				grid-template-areas: 
+				"header header"
+				"sidebar main"
+				"footer footer"
+				 ;
+				
+		};
+}
