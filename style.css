@@ -584,15 +584,19 @@ figure {
   background-color: rgb(74, 142, 95);
   color: white;
 }
-.menu__primaire .menu-item {
+.menu__primaire .menu-item li {
   padding: 10px;
+  gap: 10px;
   background-color: rgb(74, 142, 95);
   color: white;
+  display: flex;
+  justify-content: center;
 }
 .menu__primaire a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  justify-self: center;
 }
 .menu__primaire a:hover {
   text-decoration: underline;
