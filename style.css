@@ -585,7 +585,6 @@ figure {
   color: white;
 }
 .menu__primaire .menu-item li {
-  padding: 10px;
   gap: 10px;
   background-color: rgb(74, 142, 95);
   color: white;
@@ -593,6 +592,8 @@ figure {
   justify-content: center;
 }
 .menu__primaire a {
+  padding: 10px;
+  gap: 10px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
