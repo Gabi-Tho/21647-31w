@@ -3,12 +3,15 @@ body{
     font-size: .5rem;
 }
 
-
 main{
     font-family: $police__main;
     color: black;
 }
 
+.trace{
+    background-color: rgba(2, 128, 2, 0.307);
+    color: white;
+}
 // h1{
 //     color: $police__couleur--h1;
 
@@ -21,8 +24,4 @@ main{
 // }
 
 
-.trace{
-    background-color: rgba(2, 128, 2, 0.307);
-    color: white;
-}
 
