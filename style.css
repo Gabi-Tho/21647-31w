@@ -76,6 +76,7 @@ pre {
  */
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -349,7 +350,7 @@ main {
 
 h1 {
   font-family: "Garamond", serif;
-  color: green;
+  color: rgb(0, 0, 0);
 }
 
 h2, h3, h4, h5, h6 {
@@ -417,16 +418,19 @@ a {
   color: rgb(0, 0, 0);
 }
 a:visited {
-  color: rgb(74, 142, 95);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 a:hover, a:focus, a:active {
   color: rgb(172, 172, 172);
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
 }
 a:hover, a:active {
   outline: 0;
+  text-decoration: none;
 }
 
 .menu__aside a {
@@ -530,21 +534,26 @@ hr {
 
 ul,
 ol {
-  margin: 0 0 1.5em 3em;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
-  list-style: disc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 ol {
-  list-style: decimal;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.5em;
+  padding: 0;
+  margin: 0;
 }
 
 dt {
@@ -621,6 +630,29 @@ figure {
 }
 .menu__aside .menu-item:hover {
   background: white;
+}
+
+footer.site__footer {
+  height: 30vh;
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-fromage-container {
+  display: flex;
+}
+
+.menu-fromage-container > ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  justify-content: center;
+}
+
+.widget-title {
+  text-transform: uppercase;
 }
 
 /* Layout

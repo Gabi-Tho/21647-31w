@@ -1,0 +1,24 @@
+footer.site__footer{
+    height: 30vh;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-fromage-container{
+    display: flex;
+
+}
+
+.menu-fromage-container>ul{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    justify-content: center;
+    
+}
+.widget-title{
+    text-transform: uppercase;
+
+}

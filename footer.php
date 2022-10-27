@@ -14,9 +14,9 @@
 <footer class="site__footer">
 		<div><?php get_sidebar( 'footer-1' ); ?></div>
 		<div><?php get_sidebar( 'footer-2' ); ?></div>
-		<div>Gabi Gabi Gabi</div>
-		<div>Gabi Gabi Gabi</div>
-	</footer><!-- #colophon -->
+		<div>Gabi</div>
+		<div>Gabi</div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
 </body>
