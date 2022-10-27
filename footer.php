@@ -11,12 +11,13 @@
 
 ?>
 
-	<footer>
-		<p>mon pied de page bebe</p>
+<footer class="site__footer">
+		<div><?php get_sidebar( 'footer-1' ); ?></div>
+		<div><?php get_sidebar( 'footer-2' ); ?></div>
+		<div>lorem3</div>
+		<div>lorem3</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>
