@@ -334,7 +334,7 @@ html {
 }
 
 body {
-  background-color: rgb(191, 236, 253);
+  background-color: rgb(49, 49, 49);
   font-size: 0.5rem;
 }
 
@@ -415,14 +415,14 @@ big {
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:hover, a:focus, a:active {
-  color: rgb(172, 172, 172);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 a:focus {
@@ -434,13 +434,13 @@ a:hover, a:active {
 }
 
 .menu__aside a {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .menu__aside a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .menu__aside a:hover, .menu__aside a:focus, .menu__aside a:active {
-  color: rgb(74, 142, 95);
+  color: rgb(77, 77, 77);
 }
 .menu__aside a:focus {
   outline: thin dotted;
@@ -566,7 +566,7 @@ figure {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background-color: rgb(74, 142, 95);
+  background-color: rgb(56, 56, 56);
   color: white;
 }
 .menu__primaire .menu-item li {
@@ -586,6 +586,7 @@ figure {
 }
 .menu__primaire a:hover {
   text-decoration: underline;
+  color: black;
 }
 
 .menu__aside {
@@ -601,7 +602,7 @@ figure {
   padding: 10px;
 }
 .menu__aside .menu-item a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .menu__aside .menu-item:hover {
