@@ -350,12 +350,12 @@ main {
 
 h1 {
   font-family: "Garamond", serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h2, h3, h4, h5, h6 {
   font-family: "Garamond", serif;
-  color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -606,7 +606,7 @@ figure {
   text-decoration: none;
 }
 .menu__aside .menu-item:hover {
-  background: white;
+  background: rgb(120, 120, 120);
 }
 
 footer.site__footer {
