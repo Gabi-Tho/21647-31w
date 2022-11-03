@@ -344,7 +344,7 @@ main {
 }
 
 .trace {
-  background-color: rgba(2, 128, 2, 0.307);
+  background-color: pink;
   color: white;
 }
 
@@ -646,7 +646,7 @@ figure {
   text-decoration: none;
 }
 .menu__aside .menu-item:hover {
-  background: rgb(227, 102, 190);
+  background: pink;
 }
 
 .menu_secondaire_heading {
@@ -687,6 +687,8 @@ footer.site__footer {
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+  background-color: pink;
+  padding: 10px;
 }
 
 .site__menu {
