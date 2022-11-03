@@ -172,6 +172,8 @@ function my_register_sidebars() {
 	);
 
 
+
+
 	/* Repeat register_sidebar() code for additional sidebars. */
 }
 
