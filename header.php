@@ -53,7 +53,7 @@
 		)); ?>
 	</aside>
 
-	<aside class="widget__area-2">
+	<aside class="site__sidebar">
 			<div><?php get_sidebar('aside-1'); ?></div>
 			<div><?php get_sidebar('aside-2'); ?></div>
 	</aside>
