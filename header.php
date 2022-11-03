@@ -42,7 +42,7 @@
 			"container_class" => "menu__primaire"));?>
 
 	</header><!-- #masthead -->
-	<aside class="widget__area">
+	<aside class="site__menu">
 		<h2>Menu Secondaire</h2>
 		<?php wp_nav_menu(array(
 
