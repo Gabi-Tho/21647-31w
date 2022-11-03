@@ -30,7 +30,7 @@ get_header();
                 <h2>Durée de cours:<?php the_field('duree'); ?></h2>
                 <h2>Durée de cours:<?php the_field('email'); ?></h2>
                 <h2>Durée de cours:<?php the_field('radio'); ?></h2>
-                <h2>Durée de cours:<?php the_field('duree'); ?></h2>
+                <h2>Durée de cours:<?php the_field('valeurs'); ?></h2>
                 <?php the_content(null,true); ?>
 
                 <?php endwhile; ?>
