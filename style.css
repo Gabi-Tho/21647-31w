@@ -589,6 +589,18 @@ figure {
   color: black;
 }
 
+.chk-burger:checked ~ .burger {
+  transform: rotate(90deg);
+}
+
+.burger {
+  width: 4rem;
+  height: 4rem;
+  top: 30px;
+  transform: rotate(0);
+  transition: transform 0.5s;
+}
+
 .menu__aside {
   display: flex;
   padding: 10px;
@@ -606,7 +618,7 @@ figure {
   text-decoration: none;
 }
 .menu__aside .menu-item:hover {
-  background: rgb(120, 120, 120);
+  background: rgb(227, 102, 190);
 }
 
 footer.site__footer {
@@ -643,7 +655,12 @@ footer.site__footer {
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
 }
 
-.widget__area {
+.site__menu {
+  grid-area: menu;
+}
+
+.site__sidebar {
+  background-color: #888;
   grid-area: sidebar;
 }
 
@@ -659,12 +676,12 @@ footer.site__footer {
 
 .site {
   display: grid;
-  grid-template-columns: 25% auto;
-  grid-template-areas: "main" "sidebar" "header" "footer";
+  grid-template-columns: auto;
+  grid-template-areas: "menu" "header" "main" "sidebar" "footer";
 }
 @media screen and (min-width: 700px) {
   .site {
     grid-template-columns: 25% auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
+    grid-template-areas: "header header" "menu main" "sidebar main" ". main" "footer footer";
   }
 }/*# sourceMappingURL=style.css.map */
