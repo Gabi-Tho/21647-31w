@@ -678,6 +678,27 @@ footer.site__footer {
   text-transform: uppercase;
 }
 
+.menu__evenement .menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid pink;
+}
+
+.menu__evenement .menu-item {
+  list-style-type: none;
+  width: 25%;
+}
+
+.menu__porte {
+  background-color: grey;
+}
+
+.menu__projet {
+  background-color: white;
+  color: black;
+}
+
 /* Layout
 --------------------------------------------- */
 .site__header {

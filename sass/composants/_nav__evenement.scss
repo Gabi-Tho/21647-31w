@@ -1,5 +1,23 @@
 .menu__evenement{}
 
-.menu__evenement .menu{}
+.menu__evenement .menu{ //ul
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid pink; 
+}
 
-.menu__evenement .menu-item{}
+.menu__evenement .menu-item{//li
+    list-style-type: none;
+    width: 25%;
+}
+
+.menu__porte{
+    background-color: grey;
+}
+
+.menu__projet{
+    background-color: white;
+    color: black;
+}
+
