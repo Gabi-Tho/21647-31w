@@ -678,6 +678,10 @@ footer.site__footer {
   text-transform: uppercase;
 }
 
+.sidebar {
+  margin: 10px;
+}
+
 .menu__evenement .menu {
   list-style-type: none;
   display: flex;
@@ -688,14 +692,19 @@ footer.site__footer {
 .menu__evenement .menu-item {
   list-style-type: none;
   width: 25%;
+  padding: 10px;
 }
 
-.menu__porte {
+.menu__porte:hover {
   background-color: grey;
 }
 
-.menu__projet {
-  background-color: white;
+.menu__stage:hover {
+  background-color: grey;
+}
+
+.menu__projet:hover {
+  background-color: grey;
   color: black;
 }
 
@@ -708,7 +717,6 @@ footer.site__footer {
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: pink;
   padding: 10px;
 }
 
@@ -717,7 +725,8 @@ footer.site__footer {
 }
 
 .site__sidebar {
-  background-color: #888;
+  border: 1px pink solid;
+  padding: 10px;
   grid-area: sidebar;
 }
 

@@ -10,14 +10,21 @@
 .menu__evenement .menu-item{//li
     list-style-type: none;
     width: 25%;
+    padding: 10px;
 }
 
-.menu__porte{
+.menu__porte:hover{
     background-color: grey;
 }
 
-.menu__projet{
-    background-color: white;
+.menu__stage:hover{
+    background-color: grey;
+
+}
+
+.menu__projet:hover{
+    background-color: grey;
     color: black;
 }
 
+.menu__item__icone{};

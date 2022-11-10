@@ -13,7 +13,9 @@
     <h1>---- Template Evenement ------</h1>
    <?php if (have_posts()): the_post(); ?>
         <?php the_title() ?>
-        <?php the_content() ?>        
+        <?php the_content() ?> 
+         <p>venez nous joindre: </p><?php the_field('addresse') ?>
+         <p>date: </p><?php the_field('date-heure') ?>                    
    <?php endif ?>
 </main>
 <?php get_footer() ?>

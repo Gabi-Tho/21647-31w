@@ -22,19 +22,22 @@ get_header();
 
 ?>
     <main class="site__main">
+        <section class="liste">
     <?php
 		if ( have_posts() ) :
             while ( have_posts() ) :
 				the_post();?>
+                <article class="liste__cours">
                 <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
                 <h2>Durée de cours:<?php the_field('duree'); ?></h2>
                 <h2>courriel:<?php the_field('email'); ?></h2>
                 <h2>evaluation de prof: <?php the_field('radio'); ?></h2>
                 <h2>moyenne:<?php the_field('valeurs'); ?></h2>
                 <?php the_content(null,true); ?>
-
+                </article>
                 <?php endwhile; ?>
         <?php endif; ?>
+        </section>
     </main>    
 <?php 
 
