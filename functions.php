@@ -191,11 +191,11 @@ function my_register_sidebars() {
 		)
 	);
 
-	function gabi_filtre_requete( $query ) {
-		if ( $query->is_home() && $query->is_main_query() && ! is_admin() ) {
-			$query->set( 'category_name', 'accueil' );
-		}
-	}
-	add_action( 'pre_get_posts', 'wpdocs_exclude_category' );
+	// function gabi_filtre_requete( $query ) {
+	// 	if ( $query->is_home() && $query->is_main_query() && ! is_admin() ) {
+	// 		$query->set( 'category_name', 'accueil' );
+	// 	}
+	// }
+	// add_action( 'pre_get_posts', 'wpdocs_exclude_category' );
 }
 
