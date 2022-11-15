@@ -54,6 +54,21 @@
 		"footer footer"
 		;
 	}
+
+	@media screen and (min-width : 1000px){
+
+		grid-template-columns: ($size__site-sidebar) auto;
+		grid-template-areas:
+
+
+		
+		"header header"
+		"menu menu"
+		"sidebar sidebar"
+		". main"
+		"footer footer"
+		;
+	}
 }
 
 
