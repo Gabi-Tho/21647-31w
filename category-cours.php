@@ -28,6 +28,7 @@ get_header();
             while ( have_posts() ) :
 				the_post();?>
                 <article class="liste__cours">
+                <span></span>
                 <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
                 <h2>Durée de cours:<?php the_field('duree'); ?></h2>
                 <h2>courriel:<?php the_field('email'); ?></h2>
