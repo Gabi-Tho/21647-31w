@@ -29,7 +29,7 @@ get_header();
 			"container_class" => "menu__evenement"
 
 		)); ?>
-
+    <section class="liste">
     <?php
 		if ( have_posts() ) :
             while ( have_posts() ) :
@@ -51,6 +51,7 @@ get_header();
 
             <?php endwhile; ?>
         <?php endif; ?>
+        </section>
     </main>    
 <?php 
 
