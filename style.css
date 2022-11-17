@@ -687,13 +687,14 @@ footer > img {
 
 .menu__evenement {
   background-color: grey;
+  margin-bottom: 20px;
 }
 
 .menu__evenement .menu {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  border: 1px solid pink;
+  box-shadow: rgba(255, 192, 203, 0.17) 0px -23px 25px 0px inset, rgba(255, 192, 203, 0.15) 0px -36px 30px 0px inset, rgba(255, 192, 203, 0.1) 0px -79px 40px 0px inset, rgba(255, 192, 203, 0.06) 0px 2px 1px, rgba(255, 192, 203, 0.09) 0px 4px 2px, rgba(255, 192, 203, 0.09) 0px 8px 4px, rgba(255, 192, 203, 0.09) 0px 16px 8px, rgba(255, 192, 203, 0.09) 0px 32px 16px;
 }
 
 .menu__evenement .menu-item {
@@ -723,14 +724,15 @@ footer > img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 30px;
 }
 
 .liste__cours {
-  width: 30%;
+  width: 20%;
   padding: 10px;
-  background-color: rgb(148, 112, 206);
-  margin: 10px;
+  margin: 40px;
   flex-grow: 1;
+  box-shadow: rgba(255, 192, 203, 0.4) -5px 5px, rgba(255, 192, 203, 0.3) -10px 10px, rgba(255, 192, 203, 0.2) -15px 15px, rgba(255, 192, 203, 0.1) -20px 20px, rgba(255, 192, 203, 0.05) -25px 25px;
 }
 
 .liste__cours > h2 {
@@ -739,7 +741,7 @@ footer > img {
 
 .liste__cours > p {
   padding: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.432);
   color: black;
 }
 
@@ -747,7 +749,7 @@ footer > img {
 --------------------------------------------- */
 .site__header {
   grid-area: header;
-  background: whitesmoke;
+  padding: 10px;
 }
 
 .site__main {
