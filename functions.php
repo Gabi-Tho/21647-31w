@@ -190,7 +190,15 @@ function my_register_sidebars() {
 			'after_title'   => '</h3>',
 		)
 	);
+	
+	add_theme_support( 'title-tag' );
 
+	add_theme_support( 'custom-logo', array(
+		'height' => 150,
+		'width'  => 150,
+	) );
+
+	add_theme_support( 'post-thumbnails' );
 	// function gabi_filtre_requete( $query ) {
 	// 	if ( $query->is_home() && $query->is_main_query() && ! is_admin() ) {
 	// 		$query->set( 'category_name', 'accueil' );

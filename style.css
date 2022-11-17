@@ -678,8 +678,16 @@ footer.site__footer {
   text-transform: uppercase;
 }
 
+footer > img {
+  object-fit: contain;
+}
+
 .sidebar {
   margin: 10px;
+}
+
+.menu__evenement {
+  background-color: grey;
 }
 
 .menu__evenement .menu {
@@ -706,6 +714,20 @@ footer.site__footer {
 .menu__projet:hover {
   background-color: grey;
   color: black;
+}
+
+.menu__item__icone {
+  background-color: grey;
+}
+
+.liste {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.liste__cours {
+  flex: 0 1 20%;
 }
 
 /* Layout
