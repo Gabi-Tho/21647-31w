@@ -38,15 +38,32 @@ get_header();
                 <h2><a href="<?php the_permalink();?>">
                 <?php the_title(); ?></a></h2>
 
-                <p> Duree du cour <?php the_field('duree'); ?> </p>
-                <h2>Couriel:<?php the_field('couriel'); ?></h2>
-                <h2>Date de debue:<?php the_field('date'); ?></h2>
-                <h2>Place pour trouve:<?php the_field('carte'); ?></h2>
+ 
+                <!-- <h2>Couriel:<?php //the_field('couriel'); ?></h2>
+                <h2>Date de debue:<?php //the_field('date'); ?></h2>
+                <h2>Place pour trouve:<?php //the_field('carte'); ?></h2>  -->
                
-                <?php the_content(null,true); ?>
+
                 <?php if ( has_post_thumbnail() ) {
 	                      the_post_thumbnail('thumbnail'); } ?>
-                    <?= wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+                <?= wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+
+                <?php
+                $tableau = get_the_category();
+
+                foreach($tableau as $cle){
+                  if($cle->slug == "galerie"){
+                    $boolGalerie = true;
+                  };
+       
+                }
+                if($boolGalerie == true){
+                  //the_content();
+                }else{
+                  //echo wp_trim_words(get_the_excerpt(), 10, "...");
+                }
+                ?>
+
         </article>
 
             <?php endwhile; ?>
