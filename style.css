@@ -651,12 +651,8 @@ figure {
   text-align: center;
 }
 
-.pagenav {
-  background-color: pink;
-}
-
 footer.site__footer {
-  height: 30vh;
+  height: auto;
   background: grey;
   display: flex;
   justify-content: space-around;
@@ -680,6 +676,10 @@ footer.site__footer {
 
 footer > img {
   object-fit: contain;
+}
+
+div#sidebar-footer-4 {
+  margin-top: 50%;
 }
 
 .sidebar {
