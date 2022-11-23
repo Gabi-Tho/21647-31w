@@ -734,6 +734,16 @@ div#sidebar-footer-2 {
   background-color: grey;
 }
 
+@media screen and (max-width: 1000px) {
+  .menu__evenement .menu {
+    flex-direction: column;
+  }
+  .menu__evenement .menu-item {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+  }
+}
 .liste {
   display: flex;
   justify-content: space-between;
