@@ -638,7 +638,7 @@ figure {
   text-align: center;
 }
 .menu__aside .menu-item a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .menu__aside .menu-item:hover {
@@ -682,16 +682,9 @@ div#sidebar-footer-4 {
   margin-top: 50%;
 }
 
-div#sidebar-footer-3 {
-  margin-top: 50%;
-}
-
 div#sidebar-footer-2 {
   margin-top: 50%;
-}
-
-div#sidebar-footer-1 {
-  margin-top: 50%;
+  text-align: center;
 }
 
 .sidebar {
