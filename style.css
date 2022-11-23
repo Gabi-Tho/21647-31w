@@ -763,6 +763,35 @@ div#sidebar-footer-2 {
   color: black;
 }
 
+@media screen and (max-width: 1000px) {
+  .liste__cours {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+  .liste__cours > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+  }
+  .liste__cours > p {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+    color: black;
+    text-align: center;
+    align-self: center;
+  }
+  .liste {
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .liste__cours > img {
+    margin: auto;
+  }
+}
 /* Layout
 --------------------------------------------- */
 .site__header {
