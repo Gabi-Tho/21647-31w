@@ -44,6 +44,10 @@
 			"container" => "nav", 
 			"container_class" => "menu__primaire"));?>
 
+
+		<div><?php get_sidebar( 'header-1' ); ?></div>
+		<div><?php get_sidebar( 'header-2' ); ?></div>
+
 	</header><!-- #masthead -->
 	<aside class="site__menu">
 		<h2 class="menu_secondaire_heading" >Menu Secondaire</h2>
