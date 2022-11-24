@@ -38,15 +38,16 @@
 	?>
 				<p class="site__description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
+		</div>
+		<div><?php get_sidebar( 'header-1' ); ?></div>
+		<div><?php get_sidebar( 'header-2' ); ?></div>
+		<!-- .site-branding -->
 		<?php wp_nav_menu(array(
 			"menu" => "primaire",
 			"container" => "nav", 
 			"container_class" => "menu__primaire"));?>
 
 
-		<div><?php get_sidebar( 'header-1' ); ?></div>
-		<div><?php get_sidebar( 'header-2' ); ?></div>
 
 	</header><!-- #masthead -->
 	<aside class="site__menu">
