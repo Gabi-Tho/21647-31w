@@ -44,9 +44,8 @@ get_header();
                 <h2>Place pour trouve:<?php //the_field('carte'); ?></h2>  -->
                
 
-                <?php if ( has_post_thumbnail() ) {
-	                      the_post_thumbnail('thumbnail'); } ?>
-                <?= wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+
+                <?= wp_trim_words(get_the_excerpt(), 30, " ->"); ?>
 
                 <?php
                 $tableau = get_the_category();

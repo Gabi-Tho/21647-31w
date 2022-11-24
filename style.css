@@ -382,7 +382,7 @@ address {
 }
 
 pre {
-  background: rgb(64, 64, 253);
+  background: rgb(74, 142, 95);
   font-family: "Courier New", Courier, monospace;
   line-height: 0.8em;
   margin-bottom: 1.6em;
@@ -825,14 +825,20 @@ div#sidebar-header-2 {
 
 .search-info > p {
   color: white;
+  padding: 40px;
+}
+
+.search-info > h2 {
+  color: white;
+  padding: 40px;
 }
 
 .liste__search {
+  color: white;
   width: 100%;
-  padding: 50px;
+  padding: 40px;
   height: auto;
   gap: 60px;
-  background-color: rgba(255, 255, 255, 0.301);
 }
 
 /* Layout
