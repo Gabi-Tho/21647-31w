@@ -124,6 +124,30 @@ function my_register_sidebars() {
 	/* Register the 'footer-1' sidebar. */
 	register_sidebar(
 		array(
+			'id'            => 'header-1',
+			'name'          => __( 'Sidebar - header-1' ),
+			'description'   => __( 'Premier sidebar du header' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'id'            => 'header-2',
+			'name'          => __( 'Sidebar - header-2' ),
+			'description'   => __( 'deuxieme sidebar du header' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
+	register_sidebar(
+		array(
 			'id'            => 'footer-1',
 			'name'          => __( 'Sidebar - footer-1' ),
 			'description'   => __( 'Premier sidebar du footer' ),
