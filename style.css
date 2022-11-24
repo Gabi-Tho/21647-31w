@@ -561,7 +561,7 @@ figure {
 .menu__primaire .menu {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   padding: 10px;
   background-color: rgba(255, 192, 203, 0.5);
   color: white;
@@ -584,6 +584,10 @@ figure {
 .menu__primaire a:hover {
   text-decoration: underline;
   color: black;
+}
+
+.site__branding {
+  background-color: rgba(255, 192, 203, 0.5);
 }
 
 .site__menu {
@@ -802,6 +806,35 @@ div#sidebar-footer-2 {
     margin: auto;
   }
 }
+div#sidebar-header-1 {
+  margin-left: auto;
+  width: 300px;
+}
+
+div#sidebar-header-2 {
+  width: 400px;
+  margin-left: auto;
+}
+
+.liste {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.search-info > p {
+  color: white;
+}
+
+.liste__search {
+  width: 100%;
+  padding: 50px;
+  height: auto;
+  gap: 60px;
+  background-color: rgba(255, 255, 255, 0.301);
+}
+
 /* Layout
 --------------------------------------------- */
 .site__header {
@@ -813,6 +846,10 @@ div#sidebar-footer-2 {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
   padding: 10px;
+}
+
+.site__main > p {
+  color: white;
 }
 
 .site__menu {

@@ -6,7 +6,7 @@
 
         list-style-type: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         padding: 10px;
         background-color: rgb(255, 192, 203, 0.5);
         color: white;
@@ -39,6 +39,9 @@
     }
 };  //fin .menu__primaire
 
+.site__branding{
+    background-color: rgb(255, 192, 203, 0.5);
+}
 // .menu-primaire-container{}
 // .menu-primaire-container .menu{}
 // .menu-primaire-container .menu-item{}

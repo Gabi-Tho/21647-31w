@@ -28,24 +28,32 @@
 
 	<header id="masthead" class="site__header">
 		<div class="site__branding">
+		<?php wp_nav_menu(array(
+			"menu" => "primaire",
+			"container" => "nav", 
+			"container_class" => "menu__primaire"));?>
+
+			
+			<div><?php get_sidebar( 'header-1' ); ?></div>
+			<div><?php get_sidebar( 'header-2' ); ?></div>
 			<?= get_custom_logo();?>
-		<h1 class="site__title">
+			<h1 class="site__title">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-		</h1>
+			</h1>
+
 	<?php
 		$underscore_description = get_bloginfo( 'description', 'display' );
 		if ( $underscore_description || is_customize_preview() ) :
 	?>
 				<p class="site__description"><?php echo $underscore_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
+
+
+
 		</div>
-		<div><?php get_sidebar( 'header-1' ); ?></div>
-		<div><?php get_sidebar( 'header-2' ); ?></div>
+
 		<!-- .site-branding -->
-		<?php wp_nav_menu(array(
-			"menu" => "primaire",
-			"container" => "nav", 
-			"container_class" => "menu__primaire"));?>
+
 
 
 
